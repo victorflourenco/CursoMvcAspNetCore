@@ -23,6 +23,6 @@ D:\Projetos\Seção 3\Projeto01\Site01\obj\Debug\netcoreapp2.1\Site01.Views.pdb
 D:\Projetos\Seção 3\Projeto01\Site01\obj\Debug\netcoreapp2.1\Site01.csproj.CopyComplete
 D:\Projetos\Seção 3\Projeto01\Site01\obj\Debug\netcoreapp2.1\Razor\Views\Contato\Index.cshtml.g.cs
 D:\Projetos\Seção 3\Projeto01\Site01\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.cshtml.g.cs
-D:\Projetos\Seção 3\Projeto01\Site01\obj\Debug\netcoreapp2.1\Razor\Views\Palavara\Index.cshtml.g.cs
-D:\Projetos\Seção 3\Projeto01\Site01\obj\Debug\netcoreapp2.1\Razor\Views\Palavara\Cadastrar.cshtml.g.cs
 D:\Projetos\Seção 3\Projeto01\Site01\obj\Debug\netcoreapp2.1\Site01.csprojAssemblyReference.cache
+D:\Projetos\Seção 3\Projeto01\Site01\obj\Debug\netcoreapp2.1\Razor\Views\Palavra\Cadastrar.cshtml.g.cs
+D:\Projetos\Seção 3\Projeto01\Site01\obj\Debug\netcoreapp2.1\Razor\Views\Palavra\Index.cshtml.g.cs

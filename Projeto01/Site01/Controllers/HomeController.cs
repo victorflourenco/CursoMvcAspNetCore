@@ -26,7 +26,7 @@ namespace Site01.Controllers
         {
             if (usuario.email == "victor.flourenco@outlook.com" && usuario.senha == "123")
             {
-                return RedirectToAction("Index", "Palavara");
+                return RedirectToAction("Index", "Palavra");
             }
             else
             {

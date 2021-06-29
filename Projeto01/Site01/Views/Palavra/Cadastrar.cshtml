@@ -16,12 +16,12 @@
         <form method="post">
             <div class="form-group">
                 <label for="nome">Nome</label>
-                <input type="email" name="nome" value="" class="form-control" id="nome" placeholder="Digite o nome da Palavra...">
+                <input type="text" name="nome" value="" class="form-control" id="nome" placeholder="Digite o nome da Palavra...">
                 @Html.ValidationMessage("nome")
             </div>
             <div class="form-group">
-                <label for="email">Email</label>
-                <input type="password" name="nivel" value="" class="form-control" id="nivel" placeholder="Digite o Nível: 1 - Fácil, 2 - Médio, 3 - Difícil...">
+                <label for="nivel">Nível</label>
+                <input type="text" name="nivel" value="" class="form-control" id="nivel" placeholder="Digite o Nível: 1 - Fácil, 2 - Médio, 3 - Difícil...">
                 @Html.ValidationMessage("nivel")
             </div><br />
                   <button type="submit" class="btn btn-success">@ViewBag.nomeBotao</button>

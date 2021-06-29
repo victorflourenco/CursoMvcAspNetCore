@@ -8,16 +8,16 @@ using System.Threading.Tasks;
 
 namespace Site01.Controllers
 {
-    public class PalavaraController : Controller
+    public class PalavraController : Controller
     {
         private DatabaseContext _db;
-        public PalavaraController(DatabaseContext db)
-        {
-            _db = db;
-        }
+     //   public PalavaraController(DatabaseContext db)
+      //  {
+      //      _db = db;
+       // }
       public IActionResult Index()
         {
-            ViewBag.Palavras = _db.Palavras.ToList();
+           // ViewBag.Palavras = _db.Palavras.ToList();
             ViewBag.nomeBotao = "Cadastar";
             return View();
         }
@@ -26,27 +26,27 @@ namespace Site01.Controllers
     [HttpGet]
     public IActionResult Cadastrar()
         {
-            ViewBag.nomeBotao = "Atuliazar";
+            ViewBag.nomeBotao = "Cadastar";
             return View();
         }
     [HttpPost]    
 
     public IActionResult Cadastrar([FromForm]Palavra palavra)
         {
-            ViewBag.nomeBotao = "Atuliazar";
+            ViewBag.nomeBotao = "Cadastar";
             return View();
         }
      [HttpGet]
     public IActionResult Atualizar()
         {
-            ViewBag.nomeBotao = "Atuliazar";
+            ViewBag.nomeBotao = "Atualizar";
             return View("Cadastrar");
         }
 
     [HttpPost]
     public IActionResult Atualizar([FromForm]Palavra palavra)
         {
-            ViewBag.nomeBotao = "Atuliazar";
+            ViewBag.nomeBotao = "Atualizar";
             return View("Cadastar");
         }
         //Palavara/Excluir/39
